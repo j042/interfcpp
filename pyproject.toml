@@ -13,6 +13,7 @@ requires-python = ">=3.7"
 dependencies = [
     "numpy",
 ]
+version = "0.0.0"
 
 [tool.setuptools]
 packages = [

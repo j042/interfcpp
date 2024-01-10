@@ -1,0 +1,20 @@
+[project]
+name = "fcpy"
+authors = [
+    {name = "Jaewook Clemens", email = "jaewooklee042@gmail.com"}
+]
+description = "Test f cpp py."
+keywords = [
+    "geometry",
+    "visualization",
+    "mesh",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+]
+
+[tool.setuptools]
+packages = [
+    "fcpy",
+]

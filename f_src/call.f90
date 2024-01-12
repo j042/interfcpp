@@ -1,15 +1,20 @@
 program main
   use, intrinsic :: ISO_C_BINDING
+  use CallM
   implicit none
 
-  interface
+!  interface
 
-  subroutine call_py() bind (c, name="callme")
-    import
-  end subroutine call_py
+!  subroutine call_py() bind (c, name="callme")
+!    import
+!  end subroutine call_py
 
-  end interface
+!  end interface
 
+
+  call call_py()
+  call call_py()
+  call call_py()
   call call_py()
 
   write(*, *) "called"

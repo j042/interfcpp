@@ -1,13 +1,13 @@
 module CallM
-  use, intrinsic :: ISO_C_BINDING
-  implicit none
+   use, intrinsic :: ISO_C_BINDING
+   implicit none
 
-  interface
+   interface
 
-  subroutine call_py() bind (c, name="callme")
-    import
-  end subroutine call_py
+      subroutine call_py() bind (c, name="callme")
+         import
+      end subroutine call_py
 
-  end interface
+   end interface
 
 end module CallM

@@ -18,5 +18,3 @@ set(F_SRC f_src/call.f90)
 add_executable(f f_src/call.f90)
 target_include_directories(clib PUBLIC ${CMAKE_CURRENT_BINARY_DIR})
 target_link_libraries(f PUBLIC clib calllib)
-
-
